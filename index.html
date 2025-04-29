@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blacks Mobile Garage</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial Black', Arial, sans-serif;
+      background-color: #b5b7c4;
+      color: #1a1a1a;
+    }
+    header {
+      background: #333;
+      text-align: center;
+      padding: 20px;
+    }
+    header img {
+      width: 220px;
+      height: auto;
+    }
+    nav {
+      background: #444;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: #e0e0e0;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: #ffcc00;
+    }
+    .section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #002147;
+      font-family: 'Arial Black', Arial, sans-serif;
+    }
+    p, ul, li {
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+    }
+    .button {
+      display: block;
+      width: 220px;
+      margin: 20px auto;
+      padding: 15px;
+      background: #002147;
+      color: #ffffff;
+      text-align: center;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+    }
+    .button:hover {
+      background: #00162f;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: #e0e0e0;
+      font-size: 14px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+    input, textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background: #002147;
+      color: #ffffff;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background: #00162f;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Blacks Mobile Garage Logo">
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="section" id="about">
+  <h1>Welcome to Blacks Mobile Garage</h1>
+  <p>We bring professional auto repair and maintenance services straight to your location. 
+  We specialize in brakes, maintenance, engine diagnostics, engine tune-ups, and more.
+  Based in ZIP code 21060, proudly serving nearby areas!</p>
+
+  <a href="#contact" class="button">Request Service</a>
+</section>
+
+<section class="section" id="services">
+  <h2>Our Services</h2>
+  <ul>
+    <li>Brake Repair & Replacement</li>
+    <li>Oil Changes & Maintenance</li>
+    <li>Engine Diagnostics</li>
+    <li>Battery Replacement</li>
+    <li>Suspension & Steering Repair</li>
+    <li>Engine Tune-Ups</li>
+    <li>Emergency Roadside Assistance</li>
+    <li><strong>Note:</strong> We do not provide vehicle inspections.</li>
+  </ul>
+</section>
+
+<section class="section" id="contact">
+  <h2>Contact George Black</h2>
+  <form action="mailto:georgeblack@example.com" method="post" enctype="text/plain">
+    <input type="text" name="name" placeholder="Your Name" required>
+    <input type="text" name="phone" placeholder="Your Phone Number" required>
+    <input type="email" name="email" placeholder="Your Email" required>
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <input type="submit" value="Send">
+  </form>
+
+  <p style="text-align:center;">Or call George directly at <a href="tel:+14439853653" style="color:#002147;">(443) 985-3653</a></p>
+</section>
+
+<footer>
+  &copy; 2025 Blacks Mobile Garage. Serving 21060 and beyond. All rights reserved.
+</footer>
+
+</body>
+</html>
